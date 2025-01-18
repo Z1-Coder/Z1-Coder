@@ -1,7 +1,6 @@
 <div align="center">
 
-<img src="./assets/logo.png" width="80" alt="CodeEval-Pro" />
-
+<img src="./assets/logo.png" width="120" alt="CodeEval-Pro" />
 
 # Z1-Coder 
 
