@@ -1,8 +1,10 @@
+<h1 align="center">
+<img src="./assets/logo.png" width="120" alt="Z1-Coder" />
+<br>
+Z1-Coder 
+</h1>
+
 <div align="center">
-
-<img src="./assets/logo.png" width="120" alt="CodeEval-Pro" />
-
-# Z1-Coder 
 
 *Unleashing the Reasoning Power of Large Language Models to Code Generation*
 
