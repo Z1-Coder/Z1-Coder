@@ -38,7 +38,7 @@ Z1-Coder
 We open source the code and scripts we used for data curation, training, and evaluation for Z1-Coder models, you can find more details in each directory.
 
 - ``src/eval``: Evaluation for Z1-Coder. To generate our training data, we use the QwQ-32B-Preview model. we curate reasoning trajectories on code-related datasets and propose self-invoking evolving to further refine models' reasoning behaviour in code generation. 
-- ``scr/train``: Training scripts for Z1-Coder.  TWe train all the models with Fully Shard Data Parallel (FSDP) and set a global batch size to 1024 for 3 epochs using 2 NVIDIA A800-80G GPUs. We used greedy decoding for all results, with the maximum sequence length set to 1280.
+- ``scr/train``: Training scripts for Z1-Coder. We train all the models with Fully Shard Data Parallel (FSDP) and set a global batch size to 1024 for 3 epochs using 2 NVIDIA A800-80G GPUs. We used greedy decoding for all results, with the maximum sequence length set to 1280.
 We use a learning rate of 5e-5 for the two training stages. 
 
 # Introduction
