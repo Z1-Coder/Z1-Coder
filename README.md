@@ -76,7 +76,6 @@ in blue, the second-best results are underlined. </em>
     <img src="./assets/res1.png" width="700">
 </p>
 
-## Fully Open-source: Driving Progress Together
 Z1-Coder-7B surpasses the best 7B code LLMs Qwen2.5-Coder-7B-Instruct, with only 1% its post-training data.
 
 | Model                  | Z1-Coder-7B                  | Qwen2.5-Coder-7B-Ins                     |
