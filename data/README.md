@@ -1,4 +1,4 @@
-# Trajectory Generation
+# Trajectory Data
 
 ## Downloading Dataset 
 Following are the instructions to download our trajectory dataset.
