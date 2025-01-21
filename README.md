@@ -23,15 +23,14 @@ Z1-Coder
 
 
 # News
-
+- **[2025/01/17]** 🎉 We have released our [Blog]([https://huggingface.co/Z1-Coder](https://z1-coder.github.io/Z1CODER/posts/202501-z1-coder-init/z1-coder-blog/))!
 - **[2025/01/17]** 🎉 We have released our Z1-Coder-1.5B and Z1-Coder-7B model and data through [HuggingFace](https://huggingface.co/Z1-Coder)!
 
 
 # Links
 
-
-- 🤗 [Z1-Coder models](https://huggingface.co/Z1-Coder)
-- 🤗 [Z1-Coder data](https://huggingface.co/Z1-Coder)
+- 🤗 [Z1-Coder models](https://huggingface.co/collections/Z1-Coder/z1-coder-models-678f26c001517fc438f84894)
+- 🤗 [Z1-Coder data](https://huggingface.co/collections/Z1-Coder/z1-coder-dataset-678f26e7c52dc4f4152d1fe1)
 
 # Getting Started
 
