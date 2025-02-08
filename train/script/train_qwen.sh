@@ -5,7 +5,12 @@ LOG_PATH=./log.txt
 SAVE_PATH=/home/jovyan/workspace/ckpt/z1-ckpt/z1-coder-baseline
 mkdir -p $SAVE_PATH
 
-torchrun --nproc_per_node=8 --master_port=20011 train.py \
+torchrun --nproc_per_node=8 \
+    --nnodes 2 \
+    --node_rank $SATURN_JOB_RANK \
+    --master_addr $SATURN_JOB_LEADER \
+    --master_port=20011 \
+    train.py \
     --model_name_or_path Qwen/Qwen2.5-32B-Instruct \
     --data_path /home/jovyan/workspace/z1/data/qwen.json \
     --bf16 True \
