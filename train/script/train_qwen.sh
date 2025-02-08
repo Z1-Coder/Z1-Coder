@@ -12,7 +12,7 @@ torchrun --nproc_per_node=8 \
     --master_port=20011 \
     train.py \
     --model_name_or_path Qwen/Qwen2.5-32B-Instruct \
-    --data_path /home/jovyan/workspace/z1/data/qwen.json \
+    --data_path /home/jovyan/workspace/Z1-Coder/data/qwen.json \
     --bf16 True \
     --tf32 True \
     --output_dir $SAVE_PATH \
@@ -30,7 +30,7 @@ torchrun --nproc_per_node=8 \
     --lr_scheduler_type "cosine" \
     --logging_steps 1 \
     --fsdp "full_shard auto_wrap" \
-    --fsdp_config="/home/jovyan/workspace/z1/train/fsdp_config_qwen_cpu.json" \
+    --fsdp_config "/home/jovyan/workspace/Z1-Coder/train/fsdp_config_qwen_cpu.json" \
     --model_max_length 16384 \
     --gradient_checkpointing True \
     --lazy_preprocess False
