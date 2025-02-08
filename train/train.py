@@ -121,7 +121,7 @@ def train():
 
     # Load data
     if '.json' in data_args.data_path:
-        data_module = make_supervised_data_module(tokenizer=tokenizer, data_args=data_args)
+        data_module = make_supervised_data_module(tokenizer=tokenizer, data_path=data_args.data_path)
     else:
         train_dataset = load_dataset(data_args.data_path)
         data_collator = DataCollatorForSupervisedDataset(tokenizer=tokenizer)
