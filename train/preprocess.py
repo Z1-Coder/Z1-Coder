@@ -26,7 +26,7 @@ class SupervisedDataset(Dataset):
     def __init__(self, data_path: str, tokenizer: transformers.PreTrainedTokenizer):
         super(SupervisedDataset, self).__init__()
         logging.warning("Loading data...")
-        list_data_dict = load_dataset('zjy2001/OpenThoughts', split='train')
+        list_data_dict = load_dataset('zjy2001/z1-code-longcot-221k', split='train')
         logging.warning("Formatting inputs...")
         sources = [
             (
